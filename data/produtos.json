@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Firewall Avançado",
+    "descricao": "Proteção completa para sua rede corporativa.",
+    "categoria": "seguranca",
+    "imagem": "assets/img/firewall.jpg",
+    "link": "https://afiliado.com/firewall"
+  },
+  {
+    "nome": "Laptop Ultrafino",
+    "descricao": "Performance e mobilidade para profissionais criativos.",
+    "categoria": "tecnologia",
+    "imagem": "assets/img/laptop.jpg",
+    "link": "https://afiliado.com/laptop"
+  },
+  {
+    "nome": "Pacote de Ícones Premium",
+    "descricao": "Design moderno para seus projetos digitais.",
+    "categoria": "design",
+    "imagem": "assets/img/icones.jpg",
+    "link": "https://afiliado.com/icones"
+  }
+]

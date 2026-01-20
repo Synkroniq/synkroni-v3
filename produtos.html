@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synkroniq v3 | Produtos</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/produtos.css">
+</head>
+<body>
+  <!-- 🔝 Cabeçalho -->
+  <header class="cabecalho">
+    <button class="menu-toggle">☰</button>
+    <h1 class="logo">Synkroniq v3</h1>
+    <nav id="mainMenu" class="menu-lateral">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre-contato.html">Sobre + Contato</a>
+    </nav>
+  </header>
+
+  <!-- 🛍️ Filtros -->
+  <section class="filtros">
+    <h2>Catálogo de Produtos</h2>
+    <label for="categoria">Filtrar por categoria:</label>
+    <select id="categoria">
+      <option value="todos">Todos</option>
+      <option value="tecnologia">Tecnologia</option>
+      <option value="design">Design</option>
+      <option value="seguranca">Segurança</option>
+    </select>
+  </section>
+
+  <!-- 📦 Lista de produtos -->
+  <section class="lista-produtos" id="listaProdutos">
+    <!-- Produtos serão carregados via produtos.js -->
+  </section>
+
+  <!-- 🔚 Rodapé -->
+  <footer class="rodape">
+    <p>&copy; 2026 Synkroniq. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- 📜 Scripts -->
+  <script src="js/menu.js"></script>
+  <script src="js/produtos.js"></script>
+</body>
+</html>

@@ -108,3 +108,43 @@
   transform: scale(1.2);
   filter: brightness(1.3);
 }
+
+/* Links Legais - modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-conteudo {
+  background: var(--cor-fundo-card);
+  color: var(--cor-texto-claro);
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.modal-conteudo h2 {
+  margin-top: 0;
+  color: var(--cor-primaria);
+}
+
+.modal .fechar {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: var(--cor-botao-bg);
+  color: var(--cor-botao-texto);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}

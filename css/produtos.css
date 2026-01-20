@@ -2,18 +2,18 @@
 .filtros {
   padding: 2rem;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: var(--cor-fundo-claro); /* antes: #f5f5f5 */
 }
 
 .filtros h2 {
   margin-bottom: 1rem;
-  color: #007BFF;
+  color: var(--cor-secundaria); /* antes: #007BFF */
 }
 
 .filtros select {
   padding: 0.5rem 1rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cor-texto-suave); /* antes: #ccc */
   font-size: 1rem;
   cursor: pointer;
 }
@@ -27,17 +27,18 @@
 }
 
 .card-produto {
-  background: white;
+  background: var(--cor-fundo-card); /* antes: white */
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   padding: 1.5rem;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--cor-texto-claro);
 }
 
 .card-produto:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
 .card-produto img {
@@ -49,12 +50,12 @@
 }
 
 .card-produto h3 {
-  color: #333;
+  color: var(--cor-texto-escuro); /* antes: #333 */
   margin-bottom: 0.5rem;
 }
 
 .card-produto p {
-  color: #666;
+  color: var(--cor-texto-suave); /* antes: #666 */
   font-size: 0.95rem;
   margin-bottom: 1rem;
 }
@@ -62,8 +63,8 @@
 /* 🎯 Botão de compra */
 .btn-comprar {
   display: inline-block;
-  background-color: #00AA88;
-  color: white;
+  background-color: var(--cor-primaria); /* antes: #00AA88 */
+  color: var(--cor-botao-texto);
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
   text-decoration: none;
@@ -72,5 +73,6 @@
 }
 
 .btn-comprar:hover {
-  background-color: #008866;
+  background-color: var(--cor-botao-hover-bg); /* antes: #008866 */
+  color: var(--cor-botao-hover-texto);
 }

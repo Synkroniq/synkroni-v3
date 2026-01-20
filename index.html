@@ -9,19 +9,8 @@
   <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-  <!-- 🔝 Cabeçalho com menu lateral -->
-  <header class="cabecalho">
-    <button class="menu-toggle">☰</button>
-    <h1 class="logo">Synkroniq v3</h1>
-    <nav id="mainMenu" class="menu-lateral">
-      <a href="index.html">Início</a>
-      <a href="produtos.html">Produtos</a>
-      <a href="sobre-contato.html">Sobre + Contato</a>
-    </nav>
-  </header>
-
-  <!-- 🌑 Overlay -->
-  <div class="menu-overlay"></div>
+  <!-- 🔝 Cabeçalho carregado via include -->
+  <div id="header"></div>
 
   <!-- 🎯 Hero visual -->
   <section class="hero">
@@ -104,6 +93,7 @@
   </footer>
 
   <!-- 📜 Scripts -->
+  <script src="js/include-header.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/blog.js"></script>
 </body>

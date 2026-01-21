@@ -7,10 +7,9 @@ body {
 .titulo-neon {
   color: #ffffff; /* branco puro */
   text-shadow:
-    0 0 4px #fff,
-    0 0 8px #fff,
-    0 0 15px #00ffcc,
-    0 0 25px #00ffcc;
+    0 0 2px #fff,
+    0 0 4px #00ffcc,
+    0 0 8px #00ffcc;
 }
 
 .logo-azul {
@@ -268,6 +267,7 @@ button.expandir:hover {
   text-decoration: none;
   font-size: 1.3rem;
 }
+
 
 
 

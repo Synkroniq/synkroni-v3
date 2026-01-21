@@ -16,6 +16,23 @@ body {
     0 0 75px #00ffcc;
 }
 
+.logo-azul {
+  background: linear-gradient(90deg, #1e90ff, #87cefa, #4682b4); /* azul metálico */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(30,144,255,0.6);
+}
+
+.logo-verde {
+  color: var(--cor-primaria); /* verde neon já definido */
+  text-shadow:
+    0 0 5px var(--cor-primaria),
+    0 0 10px #00ff99,
+    0 0 20px #00ffcc;
+  font-weight: bold;
+}
+
 
 /* 🎯 Hero visual */
 .hero {
@@ -234,4 +251,5 @@ button.expandir:hover {
   text-decoration: none;
   font-size: 1.3rem;
 }
+
 

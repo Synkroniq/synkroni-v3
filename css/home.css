@@ -17,11 +17,30 @@ body {
 }
 
 .logo-azul {
-  background: linear-gradient(90deg, #1e90ff, #87cefa, #4682b4); /* azul metálico */
+  background: linear-gradient(
+    90deg,
+    #1e90ff,
+    #87cefa,
+    #4682b4,
+    #1e90ff
+  );
+  background-size: 300% 300%; /* aumenta área para animação */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  text-shadow: 0 0 8px rgba(30,144,255,0.6);
+  animation: brilho-metal 6s linear infinite;
+}
+
+@keyframes brilho-metal {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .logo-verde {
@@ -251,5 +270,6 @@ button.expandir:hover {
   text-decoration: none;
   font-size: 1.3rem;
 }
+
 
 

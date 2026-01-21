@@ -7,28 +7,26 @@ body {
 .titulo-neon {
   color: #ffffff; /* branco puro */
   text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #00ffcc,
-    0 0 30px #00ffcc,
-    0 0 40px #00ffcc,
-    0 0 55px #00ffcc,
-    0 0 75px #00ffcc;
+    0 0 3px #fff,
+    0 0 6px #fff,
+    0 0 12px #00ffcc,
+    0 0 18px #00ffcc;
 }
 
 .logo-azul {
   background: linear-gradient(
     90deg,
-    #1e90ff,
-    #87cefa,
-    #4682b4,
-    #1e90ff
+    #4facfe,   /* azul claro */
+    #00f2fe,   /* azul aqua vibrante */
+    #1e90ff,   /* azul padrão */
+    #87cefa    /* azul céu bem claro */
   );
   background-size: 300% 300%; /* aumenta área para animação */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   animation: brilho-metal 6s linear infinite;
+  text-shadow: 0 0 10px rgba(79,172,254,0.6); /* brilho suave */
 }
 
 @keyframes brilho-metal {
@@ -270,6 +268,7 @@ button.expandir:hover {
   text-decoration: none;
   font-size: 1.3rem;
 }
+
 
 
 

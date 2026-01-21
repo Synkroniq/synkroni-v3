@@ -1,11 +1,18 @@
 /* 🔝 Cabeçalho */
 .cabecalho {
+  background: linear-gradient( 
+    to bottom,
+  rgba(0, 0, 0, 0.85), /* preto 85% no topo */ 
+  rgba(0, 0, 0, 0.65) /* preto 65% mais suave embaixo */ 
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--cor-fundo-card); /* fundo escuro consistente */
-  color: var(--cor-texto-claro);
-  padding: 1rem 2rem;
+  color: var(--cor-rodape-texto);
+  padding: 1rem 2rem; 
+  position: relative; 
+  text-align: center;
+  z-index: 1000; /* garante que fiquem acima da imagem do body */
 }
 
 .logo {
@@ -82,10 +89,16 @@
 
 /* 🔚 Rodapé */
 .rodape {
-  background-color: var(--cor-rodape-bg);
+  background: linear-gradient( 
+    to bottom,
+  rgba(0, 0, 0, 0.85), /* preto 85% no topo */ 
+  rgba(0, 0, 0, 0.65) /* preto 65% mais suave embaixo */ 
+  );
   color: var(--cor-rodape-texto);
+  padding: 1rem 2rem; 
+  position: relative; 
   text-align: center;
-  padding: 2rem;
+  z-index: 1000; /* garante que fiquem acima da imagem do body */
 }
 
 .rodape .social {
@@ -183,3 +196,4 @@
 .modal .fechar:hover { 
   background: #b71c1c; /* vermelho mais escuro no hover */ 
 }
+

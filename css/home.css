@@ -215,26 +215,3 @@ button.expandir:hover {
 .anim-baixo {
   transform: translateY(40px);
 }
-
-/* 🔚 Rodapé */
-.rodape {
-  background-color: var(--cor-rodape-bg);
-  color: var(--cor-rodape-texto);
-  text-align: center;
-  padding: 2rem;
-}
-
-.rodape .social a {
-  margin: 0 0.5rem;
-  color: var(--cor-rodape-link);
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-
-
-
-
-
-
-

@@ -58,6 +58,24 @@
     margin: 0 auto;
   }
 
+  /* Grids (serviços, upgrades, curiosidades, produtos) */
+  .grid-servicos,
+  .grid-upgrades,
+  .grid-curiosidades,
+  .lista-produtos {
+    grid-template-columns: 1fr; /* uma coluna no mobile */
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  /* Ajuste das imagens dos cards */
+  .card-servico img,
+  .card-upgrade img,
+  .card-curiosidade img,
+  .card-produto img {
+    height: auto;
+  }
+
   /* Rodapé */
   .rodape {
     flex-direction: column;
@@ -92,7 +110,7 @@
     background-size: cover;
   }
 
-  /* Modal (se houver) */
+  /* Modal */
   .modal {
     width: 90%;
     max-width: 400px;
@@ -100,7 +118,7 @@
     padding: 1rem;
   }
 
-  /* Tabelas (se houver) */
+  /* Tabelas */
   table {
     width: 100%;
     font-size: 0.9rem;
@@ -113,5 +131,4 @@
     margin: 1rem 0;
     padding: 1rem;
   }
-
 }

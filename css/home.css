@@ -8,10 +8,10 @@ body {
 .titulo-neon {
   color: #ffffff; /* branco puro */
   text-shadow:
-    0 0 2px #fff,
-    0 0 4px #00ffcc,
-    0 0 8px #00ffcc;
+    0 0 1px #ccc,
+    0 0 2px #00ccaa;
 }
+
 
 /* 🎯 Hero visual */
 .hero {
@@ -215,3 +215,4 @@ button.expandir:hover {
 .anim-baixo {
   transform: translateY(40px);
 }
+

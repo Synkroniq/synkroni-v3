@@ -219,8 +219,9 @@ button.expandir:hover {
 
 /* Botão Whatsapp */
 .btn-whatsapp {
-  display: inline-block;
-  margin-top: 2rem;
+  display: inline-block; /* evita ocupar largura total */
+  max-width: 280px;       /* limita a largura */
+  margin-top: 2rem auto 0;
   padding: 1rem 2rem;
   background: #25D366; /* verde oficial do WhatsApp */
   color: #fff;
@@ -230,10 +231,13 @@ button.expandir:hover {
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s ease, background 0.3s ease;
+    text-align: center;
 }
+
 
 .btn-whatsapp:hover {
   background: #1ebe5d;
   transform: scale(1.08);
 }
+
 

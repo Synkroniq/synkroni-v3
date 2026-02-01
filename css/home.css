@@ -218,26 +218,30 @@ button.expandir:hover {
 
 
 /* Botão Whatsapp */
-.btn-whatsapp {
-  display: inline-block; /* evita ocupar largura total */
-  max-width: 280px;       /* limita a largura */
-  margin-top: 2rem auto 0;
-  padding: 1rem 2rem;
-  background: #25D366; /* verde oficial do WhatsApp */
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease, background 0.3s ease;
-    text-align: center;
+@keyframes pulso-discreto {
+  0% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
+  50% { transform: scale(1.03); box-shadow: 0 0 12px rgba(37, 211, 102, 0.4); }
+  100% { transform: scale(1); box-shadow: 0 0 0 rgba(0,0,0,0); }
 }
 
+.btn-whatsapp {
+  display: inline-block;
+  max-width: 260px;
+  margin: 2rem auto 0;
+  padding: 0.8rem 1.2rem;
+  background: #25D366;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: pulso-discreto 2.5s infinite;
+  transition: background 0.3s ease;
+}
 
 .btn-whatsapp:hover {
   background: #1ebe5d;
-  transform: scale(1.08);
+  animation: none; /* pausa o pulso ao interagir */
 }
-
-
